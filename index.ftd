@@ -1,6 +1,6 @@
 -- import: meenukumari28.github.io/galaxy-ps/header as h
 -- import: fastn/processors as pr
--- import: fastn-community.github.io/dark-flame-cs as cs
+-- import: meenukumari28.github.io/galaxy-cs as cs
 
 
 
@@ -55,8 +55,8 @@ back-title: RESUME
 -- resume:
 heading-1: Education
 heading-2: Experience
-icon-1: $assets.files.assets.monitor.png
-icon-2: $assets.files.assets.monitor.png
+icon-1: $assets.files.assets.school.svg
+icon-2: $assets.files.assets.work.svg
 educations: $common.educations
 work: $common.work
 
@@ -376,6 +376,7 @@ padding.px: 16
 border-radius.px: 24
 text-align: center
 width.fixed.px: 170
+color: $inherited.colors.cta-primary.text
 
 -- end: ftd.column
 
@@ -455,7 +456,7 @@ z-index: 1
 -- ftd.text: $heading.back-title
 role: $inherited.types.heading-hero
 color: $inherited.colors.text
-opacity: 0.04
+opacity: 0.08
 
 -- end: ftd.column
 
@@ -466,13 +467,13 @@ z-index: 4
 
 -- ftd.text: $heading.title
 role: $inherited.types.heading-medium
-color: $inherited.colors.cta-primary.text
+color: $inherited.colors.info.text
 
 -- ftd.column:
 width.fixed.px: 114
 border-bottom-width.px: 2
 bottom.px: 0
-border-color: $inherited.colors.custom.one
+border-color: $inherited.colors.cta-primary.base
 anchor: parent
 
 -- end: ftd.column
@@ -541,7 +542,7 @@ style: light
 
 -- ftd.text: $about-me.profile
 role: $inherited.types.heading-small
-color: $inherited.colors.cta-primary.text
+color: $inherited.colors.info.text
 style: light
 
 -- ftd.text: 
@@ -733,10 +734,10 @@ $on-mouse-leave$: $ftd.set-bool($a = $service.hover, v = false)
 width.fixed.px: 348
 padding-vertical.px: 40
 padding-horizontal.px: 30
-background.solid: $inherited.colors.background.step-1
+background.solid: $inherited.colors.background.step-2
 border-width.px: 1
 border-radius.px: 4
-border-color: $inherited.colors.border
+border-color: $inherited.colors.border-strong
 align-content: center
 
 -- ftd.image:
@@ -747,14 +748,14 @@ height.fixed.px: 80
 border-radius.percent: 50
 border-width.px: 1
 border-color: $inherited.colors.border
-border-color if { service.hover }: $inherited.colors.cta-primary.text
+border-color if { service.hover }: $inherited.colors.info.text
 background.solid: $inherited.colors.background.step-2
 
 -- ftd.text: $service.title
 role: $inherited.types.copy-large
 role if { ftd.device == "mobile" }: $inherited.types.copy-regular
 color: $inherited.colors.text-strong
-color if { service.hover }: $inherited.colors.cta-primary.text
+color if { service.hover }: $inherited.colors.info.text
 style: bold
 margin-top.px: 22
 
@@ -838,7 +839,7 @@ caption title:
 string percent:
 
 -- ftd.row:
-border-color: $inherited.colors.cta-primary.text
+border-color: $inherited.colors.cta-primary.base
 border-bottom-width.px: 3
 spacing: space-between
 width: fill-container
@@ -852,7 +853,7 @@ style: bold
 
 -- ftd.text: $achievement-card.percent
 role: $inherited.types.copy-regular
-color: $inherited.colors.cta-primary.text
+color: $inherited.colors.info.text
 style: bold 
 
 -- end: ftd.row
@@ -890,7 +891,7 @@ spacing.fixed.px: 24
 
 -- ftd.image:
 src: $resume.icon-1
-width.fixed.px: 38
+width.fixed.px: 48
 
 -- ftd.text: $resume.heading-1
 role: $inherited.types.heading-medium
@@ -902,10 +903,10 @@ style: medium
 -- ftd.row:
 height.fixed.px: 700
 border-left-width.px: 1
-border-color: $inherited.colors.border
+border-color: $inherited.colors.border-strong
 
 -- ftd.column:
-spacing.fixed.px: 24
+spacing.fixed.px: 64
 
 -- education-details: $obj.title
 $loop$: $resume.educations as $obj
@@ -941,10 +942,10 @@ style: medium
 -- ftd.row:
 height.fixed.px: 700
 border-left-width.px: 1
-border-color: $inherited.colors.border
+border-color: $inherited.colors.border-strong
 
 -- ftd.column:
-spacing.fixed.px: 24
+spacing.fixed.px: 64
 
 -- experience-details: $obj.title
 $loop$: $resume.work as $obj
@@ -989,9 +990,9 @@ height.fixed.px: 18
 width.fixed.px: 18
 border-radius.px: 100
 border-width.px: 1
-border-color: $inherited.colors.border
+border-color: $inherited.colors.border-strong
 background.solid: $inherited.colors.background.step-1
-background.solid if { education-details.mouse-in }: $inherited.colors.cta-primary.text
+background.solid if { education-details.mouse-in }: $inherited.colors.cta-primary.base
 margin-left.px: -8
 
 -- end: ftd.column
@@ -1005,7 +1006,7 @@ spacing.fixed.px: 8
 
 -- ftd.text: $education-details.title
 role: $inherited.types.heading-small
-color: $inherited.colors.cta-primary.text
+color: $inherited.colors.info.text
 
 -- ftd.text: $education-details.timeline
 role: $inherited.types.copy-large
@@ -1058,7 +1059,7 @@ border-radius.px: 100
 border-width.px: 1
 border-color: $inherited.colors.border
 background.solid: $inherited.colors.background.step-1
-background.solid if { experience-details.mouse-in }: $inherited.colors.cta-primary.text
+background.solid if { experience-details.mouse-in }: $inherited.colors.info.text
 margin-left.px: -8
 
 -- end: ftd.column
@@ -1072,7 +1073,7 @@ spacing.fixed.px: 8
 
 -- ftd.text: $experience-details.title
 role: $inherited.types.heading-small
-color: $inherited.colors.cta-primary.text
+color: $inherited.colors.info.text
 
 -- ftd.text: $experience-details.timeline
 role: $inherited.types.copy-large
@@ -1538,7 +1539,10 @@ string copyright:
 width: fill-container
 align-content: center
 background.solid: $inherited.colors.background.base
-padding-vertical.px: 32
+margin-top.px: 48
+padding-vertical.px: 24
+border-top-width.px: 1
+border-color: $inherited.colors.border
 padding-horizontal.px if { ftd.device == "mobile" }: 26
 
 -- ftd.row:

@@ -6,7 +6,7 @@ favicon: /-/meenukumari28.github.io/galaxy-ps/favicon.ico
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/midnight-storm-typography as typo
--- fastn.dependency: fastn-community.github.io/dark-flame-cs
+-- fastn.dependency: meenukumari28.github.io/galaxy-cs
 
 -- fastn.auto-import: meenukumari28.github.io/galaxy-ps/FASTN/ds
 -- fastn.auto-import: meenukumari28.github.io/galaxy-ps/assets

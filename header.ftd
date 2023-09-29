@@ -105,7 +105,7 @@ boolean breadcrumb: false
 
 -- ftd.column:
 width: fill-container
-background.solid: $inherited.colors.background.base
+background.solid: $inherited.colors.background.step-1
 align-content: center
 
 -- ftd.row:

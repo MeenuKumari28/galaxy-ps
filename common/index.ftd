@@ -194,37 +194,37 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tinc
 -- overhaul list overhauls:
 
 -- overhaul: Unique Design 1
-icon: $assets.files.assets.monitor.png
+icon: $assets.files.assets.monitor.svg
 
 I design and develop services for customers of all sizes, specializing 
 in creating stylish, modern websites.
 
 -- overhaul: Unique Design 2
-icon: $assets.files.assets.tags.png
+icon: $assets.files.assets.tags.svg
 
 I design and develop services for customers of all sizes, specializing 
 in creating stylish, modern websites.
 
 -- overhaul: Unique Design 3
-icon: $assets.files.assets.messages.svg
+icon: $assets.files.assets.chat.svg
 
 I design and develop services for customers of all sizes, specializing 
 in creating stylish, modern websites.
 
 -- overhaul: Unique Design 4
-icon: $assets.files.assets.tablet.png
+icon: $assets.files.assets.tag.svg
 
 I design and develop services for customers of all sizes, specializing 
 in creating stylish, modern websites.
 
 -- overhaul: Unique Design 5
-icon: $assets.files.assets.bullseye.png
+icon: $assets.files.assets.monitor.svg
 
 I design and develop services for customers of all sizes, specializing 
 in creating stylish, modern websites.
 
 -- overhaul: Unique Design 6
-icon: $assets.files.assets.settings.svg
+icon: $assets.files.assets.chat.svg
 
 I design and develop services for customers of all sizes, specializing 
 in creating stylish, modern websites.
