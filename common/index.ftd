@@ -1,0 +1,318 @@
+-- import: meenukumari28.github.io/galaxy-ps/assets
+-- import: fastn/processors as pr
+
+-- integer max-width: 1140
+
+-- string number: 1234567890
+
+
+-- string site-name: Fastn
+
+-- boolean show-footer: true
+
+-- ftd.image-src site-logo: $assets.files.assets.ipsum-logo.svg
+
+-- integer logo-width: 180
+
+-- integer logo-height: 44
+
+-- string site-url: index.html
+
+-- boolean login-button: false
+
+-- integer max-width: 1320
+
+-- ftd.color overlay: #00000099
+
+
+
+-- record overhaul:
+caption title:
+body body:
+ftd.image-src icon:
+
+
+
+-- record skill:
+caption title:
+string percent:
+
+
+-- record project:
+caption title:
+string sub-title:
+ftd.image-src src:
+
+
+
+
+
+-- record info:
+caption title:
+string tag:
+
+
+
+
+
+
+-- record education:
+caption title:
+string timeline:
+string location:
+body body:
+
+
+
+
+
+
+
+-- record experience:
+caption title:
+string timeline:
+string location:
+body body:
+
+
+
+
+
+-- record testimonial:
+caption title:
+body body:
+string designation:
+ftd.image-src src:
+
+
+
+
+
+
+
+-- record social-media:
+ftd.image-src src:
+string link: /
+
+-- social-media list share:
+
+-- social-media list social-links:
+
+-- social-media:
+link: /
+src: $assets.files.assets.fb.png
+
+-- social-media: 
+link: /
+src: $assets.files.assets.figma.png
+
+-- social-media:
+link: /
+src: $assets.files.assets.google.png
+
+-- social-media: 
+link: /
+src: $assets.files.assets.chat.png
+
+-- end: social-links
+
+
+
+
+
+
+
+
+
+-- pr.sitemap-data sitemap:
+$processor$: pr.sitemap
+
+
+
+
+
+
+
+
+
+-- education list educations:
+
+-- education: Master of Computer Science
+timeline: 2015 - 2016
+location: University of XYZ
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.
+
+-- education: Bachelor of Computer Science
+timeline: 2010 - 2014
+location: University of XYZ
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.
+
+-- education: Diploma in Computer Science
+timeline: 2006 - 2010
+location: University of XYZ
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.
+
+-- end: educations
+
+
+
+
+
+
+
+
+
+-- experience list work:
+
+-- experience: Senior Front End Developer
+timeline: 2015 - 2016
+location: XYZ INDESTARY
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.
+
+-- experience: Front End Developer
+timeline: 2010 - 2014
+location: XYZ INDESTARY
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.
+
+-- experience: Front End Developer Intern
+timeline: 2006 - 2010
+location: XYZ INDESTARY
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.
+
+-- end: work
+
+
+
+
+
+-- overhaul list overhauls:
+
+-- overhaul: Unique Design 1
+icon: $assets.files.assets.monitor.png
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- overhaul: Unique Design 2
+icon: $assets.files.assets.tags.png
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- overhaul: Unique Design 3
+icon: $assets.files.assets.messages.svg
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- overhaul: Unique Design 4
+icon: $assets.files.assets.tablet.png
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- overhaul: Unique Design 5
+icon: $assets.files.assets.bullseye.png
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- overhaul: Unique Design 6
+icon: $assets.files.assets.settings.svg
+
+I design and develop services for customers of all sizes, specializing 
+in creating stylish, modern websites.
+
+-- end: overhauls
+
+
+
+
+
+
+-- skill list skills:
+
+-- skill: Skill 1
+percent: 90%
+
+-- skill: Skill 2
+percent: 90%
+
+-- skill: Skill 3
+percent: 90%
+
+-- skill: Skill 4
+percent: 90%
+
+-- skill: Skill 5
+percent: 90%
+
+-- skill: Skill 6
+percent: 90%
+
+-- end: skills
+
+
+
+
+
+-- project list projects:
+
+-- project: Our Photography
+sub-title: Design
+src: $assets.files.assets.leaves.jpeg
+
+-- project: Our Photography
+sub-title: Design
+src: $assets.files.assets.coffee.jpeg
+
+-- project: Our Photography
+sub-title: Design
+src: $assets.files.assets.bananas.jpeg
+
+-- project: Our Photography
+sub-title: Design
+src: $assets.files.assets.bb.jpeg
+
+-- project: Our Photography
+sub-title: Design
+src: $assets.files.assets.pineapple.jpeg
+
+-- project: Our Photography
+sub-title: Design
+src: $assets.files.assets.wooden-hand.jpeg
+
+-- end: projects
+
+
+
+
+
+
+
+
+
+
+-- testimonial list testimonials:
+
+-- testimonial: Nancy Bayers
+designation: Co-Founder
+src: $assets.files.assets.testimonial-1.jpeg
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint 
+
+-- testimonial: Jenny Deo
+designation: Co-Founder
+src: $assets.files.assets.testimonial-2.jpeg
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint
+
+-- end: testimonials
