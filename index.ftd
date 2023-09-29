@@ -12,13 +12,13 @@ sub-title: Hello, i'm
 profile: fastn Builder
 cta-text: Hire Me
 cta-link: /
-avatar: $assets.files.assets.avatar.jpg
+avatar: $assets.files.assets.avatar.svg
 
 -- heading: ABOUT ME
 back-title: ABOUT ME
 
 -- about-me: Hi There! I'm Meenu Kumari
-avatar: $assets.files.assets.avatar.jpg
+avatar: $assets.files.assets.avatar.svg
 profile: fastn Builder
 birthday: Dec 17, 1998
 phone: +91 9125648652
