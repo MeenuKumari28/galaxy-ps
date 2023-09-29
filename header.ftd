@@ -6,7 +6,7 @@ optional ftd.image-src site-logo:
 string site-url: /
 optional string site-name:
 pr.toc-item list sections:
-ftd.image-src menu-icon: $assets.files.static.hamburger.svg
+ftd.image-src menu-icon: $assets.files.assets.hamburger.svg
 integer logo-width: 120
 integer logo-height: 44
 boolean $sidebar-open: false
@@ -191,7 +191,7 @@ color: $inherited.colors.text
 -- component login-signup:
 optional string login:
 optional string login-btn-url: 
-ftd.image-src icon-github: $assets.files.static.icon-github.svg
+ftd.image-src icon-github: $assets.files.assets.icon-github.svg
 boolean $hover: false
 
 -- ftd.row:
@@ -268,7 +268,7 @@ link: $login-signup-desktop.login-btn-url
 -- component login-signup-mobile:
 optional string login:
 optional string login-btn-url: 
-optional ftd.image-src icon-github: $assets.files.static.icon-github.svg 
+optional ftd.image-src icon-github: $assets.files.assets.icon-github.svg 
 
 -- ftd.column:
 spacing.fixed.px: 32
@@ -467,13 +467,13 @@ width: fill-container
 
 -- ftd.image: 
 if: { !header-mobile.show-section }
-src: $assets.files.static.down-arrow-dark.svg
+src: $assets.files.assets.down-arrow-dark.svg
 height: hug-content
 width.fixed.px: 12
 
 -- ftd.image: 
 if: { header-mobile.show-section }
-src: $assets.files.static.up-arrow-dark.svg
+src: $assets.files.assets.up-arrow-dark.svg
 width.fixed.px: 12
 
 -- end: ftd.row
@@ -599,7 +599,7 @@ z-index: 1
 $on-click$: $ftd.toggle($a = $mobile-sidebar.sidebar-open)
 
 -- ftd.image:
-src: $assets.files.static.cross.svg
+src: $assets.files.assets.cross.svg
 height.fixed.px: 24
 width: hug-content
 anchor: window
@@ -765,7 +765,7 @@ children: $header-item-mobile.children
 
 -- component github-button:
 string github-url:
-ftd.image-src icon-github: $assets.files.static.icon-github.svg 
+ftd.image-src icon-github: $assets.files.assets.icon-github.svg 
 
 -- ftd.column:
 
